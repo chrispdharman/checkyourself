@@ -1,0 +1,9 @@
+{% if urgent_resources %}
+    <ul>
+    {% for resource in urgent_resources %}
+        <li>{{ resource }}</li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No resources are available.</p>
+{% endif %}
