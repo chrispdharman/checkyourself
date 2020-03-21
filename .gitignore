@@ -1,0 +1,7 @@
+# PyCached files
+app/*/__pycache__/
+app/*/*/__pycache__/
+
+# Local environment config/launch files
+venv/
+.vscode/
